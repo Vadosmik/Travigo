@@ -51,9 +51,24 @@ namespace Travigo
                     stopwatch.Start();
 
                     Console.Write("restauracja dodany do listy rezerwacji");
-                    while (stopwatch.Elapsed.TotalSeconds < 2)
-                    {
-                    }
+                    int load = 0;
+            while (stopwatch.Elapsed.TotalSeconds < 2)
+            {
+                if (stopwatch.Elapsed.TotalSeconds > 0.25 && stopwatch.Elapsed.TotalSeconds < 0.75 && load == 0)
+                {
+                    Console.Write(".");
+                    load++;
+                }else if (stopwatch.Elapsed.TotalSeconds > 0.75 && stopwatch.Elapsed.TotalSeconds < 1.25 && load == 1)
+                {
+                    Console.Write(".");
+                    load++;
+                }
+                else if (stopwatch.Elapsed.TotalSeconds > 1.25 && stopwatch.Elapsed.TotalSeconds < 1.50 && load == 2)
+                {
+                    Console.Write(".");
+                    load++;
+                }
+            }
 
                     stopwatch.Stop();
                     Console.Clear();
