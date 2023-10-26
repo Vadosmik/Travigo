@@ -1,0 +1,56 @@
+{
+    //=======hotel=========
+  "hotels": [
+    {
+      "name": "Hotel ABC",
+      "stars": 4,
+      "description": "A luxurious hotel with stunning views of the city.",
+      "location": {
+        "country": "Poland",
+        "city": "Warsaw",
+        "address": "123 Hotel Street"
+      }
+    },
+    {
+      "name": "Hotel XYZ",
+      "stars": 4,
+      "description": "A cozy hotel in a peaceful countryside setting.",
+      "location": {
+        "country": "Italy",
+        "city": "Venice",
+        "address": "456 dfghjk"
+      }
+    },
+    {
+      "name": "otolte",
+      "stars": 5,
+      "description": "A cozy hotel in a peaceful countryside setting.",
+      "location": {
+        "country": "Italy",
+        "city": "Venice",
+        "address": "456 hotel Road"
+      }
+    },
+    {
+      "name": "pidente",
+      "stars": 3,
+      "description": "A cozy hotel in a peaceful countryside setting.",
+      "location": {
+        "country": "France",
+        "city": "Paris",
+        "address": "456 Resort "
+      }
+    },
+    {
+      "name": "iczi",
+      "stars": 3,
+      "description": "A cozy hotel in a peaceful countryside setting.",
+      "location": {
+        "country": "Japan",
+        "city": "Tokyo",
+        "address": "456  Road"
+      }
+    }
+  ]
+}
+
