@@ -8,20 +8,6 @@
       "listRezerwacji": [
         "Hotel ABC    4*\n  A luxurious hotel with stunning views of the city.\n  123 Hotel Street\n  "
       ]
-    },
-    {
-      "username": "huj",
-      "password": "huj",
-      "status": "user",
-      "id": 1,
-      "listRezerwacji": null
-    },
-    {
-      "username": "huj",
-      "password": "huj",
-      "status": "user",
-      "id": 2,
-      "listRezerwacji": null
     }
   ],
   "admin": [
