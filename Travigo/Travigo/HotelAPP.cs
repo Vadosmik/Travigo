@@ -52,14 +52,23 @@ public class HotelAPP
             stopwatch.Start();
 
             Console.Write("hotel dodany do listy rezerwacji ");
+            int load = 0;
             while (stopwatch.Elapsed.TotalSeconds < 2)
             {
-                
-                if (stopwatch.Elapsed.TotalSeconds == 0.5 || stopwatch.Elapsed.TotalSeconds == 1 || stopwatch.Elapsed.TotalSeconds == 0)
+                if (stopwatch.Elapsed.TotalSeconds > 0.25 && stopwatch.Elapsed.TotalSeconds < 0.75 && load == 0)
                 {
                     Console.Write(".");
+                    load++;
+                }else if (stopwatch.Elapsed.TotalSeconds > 0.75 && stopwatch.Elapsed.TotalSeconds < 1.25 && load == 1)
+                {
+                    Console.Write(".");
+                    load++;
                 }
-                
+                else if (stopwatch.Elapsed.TotalSeconds > 1.25 && stopwatch.Elapsed.TotalSeconds < 1.50 && load == 2)
+                {
+                    Console.Write(".");
+                    load++;
+                }
             }
 
             stopwatch.Stop();
