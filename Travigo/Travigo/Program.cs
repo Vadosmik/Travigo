@@ -148,10 +148,7 @@ internal class Program
                                     Console.Clear();
                                     Console.WriteLine("===TRAVIGO===\n");
 
-                                    Console.WriteLine(id);
                                     Console.WriteLine(Rezerwacja);
-                                    Console.WriteLine(where);
-
 
                                     Console.WriteLine("\n=============");
                                     Console.ReadLine();
