@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/vadosmik/Projects/Travigo/Travigo/Travigo.csproj": {}
+    "/Users/vadosmik/Desktop/Travigo copy/Travigo/Travigo.csproj": {}
   },
   "projects": {
-    "/Users/vadosmik/Projects/Travigo/Travigo/Travigo.csproj": {
+    "/Users/vadosmik/Desktop/Travigo copy/Travigo/Travigo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/vadosmik/Projects/Travigo/Travigo/Travigo.csproj",
+        "projectUniqueName": "/Users/vadosmik/Desktop/Travigo copy/Travigo/Travigo.csproj",
         "projectName": "Travigo",
-        "projectPath": "/Users/vadosmik/Projects/Travigo/Travigo/Travigo.csproj",
+        "projectPath": "/Users/vadosmik/Desktop/Travigo copy/Travigo/Travigo.csproj",
         "packagesPath": "/Users/vadosmik/.nuget/packages/",
-        "outputPath": "/Users/vadosmik/Projects/Travigo/Travigo/obj/",
+        "outputPath": "/Users/vadosmik/Desktop/Travigo copy/Travigo/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/vadosmik/.nuget/NuGet/NuGet.Config"

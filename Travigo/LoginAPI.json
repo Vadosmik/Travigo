@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "username": "user",
+      "password": "123",
+      "listaRezerwacji": {
+        "hotel": "",
+        "restaurant": ""
+      }
+    }
+  ],
+  "admin": [
+    {
+      "username": "admin",
+      "password": "admin",
+      "listaRezerwacji": null
+    }
+  ]
+}
