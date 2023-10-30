@@ -1,4 +1,6 @@
-﻿do
+using Newtonsoft.Json;
+
+do
 {
     //rejstracja i logowanie do accounta
     LoginApp LoginApp = new LoginApp();
@@ -30,7 +32,6 @@
             Console.WriteLine(where);
             Console.ReadLine();
             Console.Clear();
-            break;
         }
         else
         {
