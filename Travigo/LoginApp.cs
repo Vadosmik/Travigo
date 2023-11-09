@@ -3,8 +3,8 @@ using Newtonsoft.Json;
 
 public class listaRezerwacji
 {
-    public string hotel { get; set; }
-    public string restaurant { get; set; }
+    public List<string> hotel { get; set; }
+    public List<string> restaurant { get; set; }
 }
 
 public class User
@@ -23,6 +23,7 @@ public class UserData
 public class LoginApp
 {
     public string username = "";
+    public int exit = 0;
 	public LoginApp()
 	{
         do
@@ -31,9 +32,16 @@ public class LoginApp
             ActionSelection AccountMenu = new ActionSelection();
 
             AccountMenu.Action.Add("Log In");
-            AccountMenu.Action.Add("rejstracja nowego użytkownik");
+            AccountMenu.Action.Add("rejstracja nowego użytkownik \n");
+            AccountMenu.Action.Add("exit");
 
             int AccountAction = AccountMenu.GetActionSelection;
+
+            if (AccountAction == 2)
+            {
+                exit = 5;
+                break;
+            }
 
             // odczytywanie plika JSON
             string user = File.ReadAllText("../../../LoginAPI.json");
@@ -66,18 +74,18 @@ public class LoginApp
 
             User takeUsername = userData.users.Find(user => user.username == Username);
 
+            //Autoryzacja użytkownika/admina
+            User authenticatedAdmin = userData.admin.Find(user => user.username == Username && user.password == password);
+            User authenticatedUser = userData.users.Find(user => user.username == Username && user.password == password);
+
+
             if (AccountAction == 0)
             {
-                //Autoryzacja użytkownika/admina
-                User authenticatedAdmin = userData.admin.Find(user => user.username == Username && user.password == password);
-                User authenticatedUser = userData.users.Find(user => user.username == Username && user.password == password);
 
                 if (authenticatedAdmin != null)
                 {
 
-                    //AdminPanel admin = new AdminPanel();
-                    username = "admin";
-                    break;
+                    AdminPanel admin = new AdminPanel();
 
                 }
                 else if (authenticatedUser != null)
@@ -88,22 +96,31 @@ public class LoginApp
 
 
             }
-            else if (AccountAction == 1 && takeUsername.username == null)
+            else if (AccountAction == 1)
             {
-                User newUser = new User
-                {
-                    username = Username,
-                    password = password,
-                    listaRezerwacji = new listaRezerwacji
+                if (takeUsername == null) {
+                    User newUser = new User
                     {
-                        hotel = "",
-                        restaurant = ""
-                    }
-                };
+                        username = Username,
+                        password = password,
+                        listaRezerwacji = new listaRezerwacji
+                        {
+                            
+                        }
+                    };
+                    //dodawanie nowego użytkownika do listy
+                    userData.users.Add(newUser);
+                    File.WriteAllText("../../../LoginAPI.json", JsonConvert.SerializeObject(userData, Formatting.Indented));
 
-                //dodawanie nowego użytkownika do listy
-                userData.users.Add(newUser);
-                File.WriteAllText("../../../LoginAPI.json", JsonConvert.SerializeObject(userData, Formatting.Indented));
+                }
+                else if (takeUsername != null)
+                {
+                    Console.Clear();
+                    Console.Write("taki użytkowniik już istnieje, prosze użyć inny username\n\n");
+                    Console.Write(">return");
+                    Console.ReadLine();
+                }
+
             }
             Console.Clear();
         } while (true);

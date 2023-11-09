@@ -1,0 +1,59 @@
+{
+  "restaurant": [
+    {
+      "name": "restauracja ABC",
+      "stars": 4,
+      "description": "A luxurious restauracja with stunning views of the city.",
+      "cuisine": "japońska",
+      "location": {
+        "country": "Poland",
+        "city": "Warsaw",
+        "address": "123 Hotel Street"
+      }
+    },
+    {
+      "name": "restauracja XYZ",
+      "stars": 3,
+      "description": "A cozy restauracja in a peaceful countryside setting.",
+      "cuisine": "białoruska",
+      "location": {
+        "country": "Italy",
+        "city": "Venice",
+        "address": "456 Resort Road"
+      }
+    },
+    {
+      "name": "restauracja XYZ",
+      "stars": 3,
+      "description": "A cozy restauracja in a peaceful countryside setting.",
+      "cuisine": "białoruska",
+      "location": {
+        "country": "Japan",
+        "city": "Venice",
+        "address": "456 Resort Road"
+      }
+    },
+    {
+      "name": "restauracja XYZ",
+      "stars": 3,
+      "description": "A cozy restauracja in a peaceful countryside setting.",
+      "cuisine": "białoruska",
+      "location": {
+        "country": "France",
+        "city": "Venice",
+        "address": "456 Resort Road"
+      }
+    },
+    {
+      "name": "asd",
+      "stars": 3,
+      "description": "asd",
+      "cuisine": "aas",
+      "location": {
+        "country": "asd",
+        "city": "asd",
+        "address": "asd"
+      }
+    }
+  ]
+}

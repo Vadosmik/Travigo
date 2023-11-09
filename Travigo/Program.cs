@@ -1,20 +1,17 @@
-using Newtonsoft.Json;
-
+int exit = 0;
 do
 {
     //rejstracja i logowanie do accounta
     LoginApp LoginApp = new LoginApp();
+    string username = LoginApp.username;
+
+    if (LoginApp.exit == 5)
+    {
+        break;
+    }
 
     do
     {
-        if (LoginApp.username == "admin")
-        {
-            Console.WriteLine("admin");
-            Console.ReadLine();
-            Console.Clear();
-            break;
-        }
-
         //======  Country  ======
         ActionSelection Country = new ActionSelection();
 
@@ -25,13 +22,19 @@ do
 
         Country.Action.Add("exit");
 
-        string where = Country.Action[Country.GetActionSelection];
+        string whichCountry = Country.Action[Country.GetActionSelection];
         Console.Clear();
-        if (where != "exit")
+        if (whichCountry != "exit")
         {
-            Console.WriteLine(where);
-            Console.ReadLine();
-            Console.Clear();
+            Services Services = new Services();
+
+            Services.Menu(whichCountry, username);
+
+            if (Services.WhereToGo == 4 || Services.WhereToGo == 5)
+            {
+                exit = Services.WhereToGo;
+                break;
+            }
         }
         else
         {
@@ -39,4 +42,8 @@ do
             break;
         }
     } while (true);
+    if (exit == 5)
+    {
+        break;
+    }
 } while (true);
