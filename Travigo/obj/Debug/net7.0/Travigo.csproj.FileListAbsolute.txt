@@ -1,0 +1,46 @@
+/Users/vadosmik/Projects/Travigo/Travigo/obj/Debug/net7.0/Travigo.csproj.AssemblyReference.cache
+/Users/vadosmik/Projects/Travigo/Travigo/obj/Debug/net7.0/Travigo.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vadosmik/Projects/Travigo/Travigo/obj/Debug/net7.0/Travigo.AssemblyInfoInputs.cache
+/Users/vadosmik/Projects/Travigo/Travigo/obj/Debug/net7.0/Travigo.AssemblyInfo.cs
+/Users/vadosmik/Projects/Travigo/Travigo/obj/Debug/net7.0/Travigo.csproj.CoreCompileInputs.cache
+/Users/vadosmik/Projects/Travigo/Travigo/bin/Debug/net7.0/Travigo
+/Users/vadosmik/Projects/Travigo/Travigo/bin/Debug/net7.0/Travigo.deps.json
+/Users/vadosmik/Projects/Travigo/Travigo/bin/Debug/net7.0/Travigo.runtimeconfig.json
+/Users/vadosmik/Projects/Travigo/Travigo/bin/Debug/net7.0/Travigo.dll
+/Users/vadosmik/Projects/Travigo/Travigo/bin/Debug/net7.0/Travigo.pdb
+/Users/vadosmik/Projects/Travigo/Travigo/obj/Debug/net7.0/Travigo.dll
+/Users/vadosmik/Projects/Travigo/Travigo/obj/Debug/net7.0/refint/Travigo.dll
+/Users/vadosmik/Projects/Travigo/Travigo/obj/Debug/net7.0/Travigo.pdb
+/Users/vadosmik/Projects/Travigo/Travigo/obj/Debug/net7.0/Travigo.genruntimeconfig.cache
+/Users/vadosmik/Projects/Travigo/Travigo/obj/Debug/net7.0/ref/Travigo.dll
+/Users/vadosmik/Projects/Travigo/Travigo/bin/Debug/net7.0/Microsoft.VisualStudio.LiveShare.dll
+/Users/vadosmik/Projects/Travigo/Travigo/bin/Debug/net7.0/Newtonsoft.Json.dll
+/Users/vadosmik/Projects/Travigo/Travigo/bin/Debug/net7.0/System.Composition.AttributedModel.dll
+/Users/vadosmik/Projects/Travigo/Travigo/bin/Debug/net7.0/System.Composition.Convention.dll
+/Users/vadosmik/Projects/Travigo/Travigo/bin/Debug/net7.0/System.Composition.Hosting.dll
+/Users/vadosmik/Projects/Travigo/Travigo/bin/Debug/net7.0/System.Composition.Runtime.dll
+/Users/vadosmik/Projects/Travigo/Travigo/bin/Debug/net7.0/System.Composition.TypedParts.dll
+/Users/vadosmik/Projects/Travigo/Travigo/obj/Debug/net7.0/Travigo.csproj.CopyComplete
+/Users/vadosmik/Desktop/Travigo copy/Travigo/bin/Debug/net7.0/Travigo
+/Users/vadosmik/Desktop/Travigo copy/Travigo/bin/Debug/net7.0/Travigo.deps.json
+/Users/vadosmik/Desktop/Travigo copy/Travigo/bin/Debug/net7.0/Travigo.runtimeconfig.json
+/Users/vadosmik/Desktop/Travigo copy/Travigo/bin/Debug/net7.0/Travigo.dll
+/Users/vadosmik/Desktop/Travigo copy/Travigo/bin/Debug/net7.0/Travigo.pdb
+/Users/vadosmik/Desktop/Travigo copy/Travigo/bin/Debug/net7.0/Microsoft.VisualStudio.LiveShare.dll
+/Users/vadosmik/Desktop/Travigo copy/Travigo/bin/Debug/net7.0/Newtonsoft.Json.dll
+/Users/vadosmik/Desktop/Travigo copy/Travigo/bin/Debug/net7.0/System.Composition.AttributedModel.dll
+/Users/vadosmik/Desktop/Travigo copy/Travigo/bin/Debug/net7.0/System.Composition.Convention.dll
+/Users/vadosmik/Desktop/Travigo copy/Travigo/bin/Debug/net7.0/System.Composition.Hosting.dll
+/Users/vadosmik/Desktop/Travigo copy/Travigo/bin/Debug/net7.0/System.Composition.Runtime.dll
+/Users/vadosmik/Desktop/Travigo copy/Travigo/bin/Debug/net7.0/System.Composition.TypedParts.dll
+/Users/vadosmik/Desktop/Travigo copy/Travigo/obj/Debug/net7.0/Travigo.csproj.AssemblyReference.cache
+/Users/vadosmik/Desktop/Travigo copy/Travigo/obj/Debug/net7.0/Travigo.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vadosmik/Desktop/Travigo copy/Travigo/obj/Debug/net7.0/Travigo.AssemblyInfoInputs.cache
+/Users/vadosmik/Desktop/Travigo copy/Travigo/obj/Debug/net7.0/Travigo.AssemblyInfo.cs
+/Users/vadosmik/Desktop/Travigo copy/Travigo/obj/Debug/net7.0/Travigo.csproj.CoreCompileInputs.cache
+/Users/vadosmik/Desktop/Travigo copy/Travigo/obj/Debug/net7.0/Travigo.csproj.CopyComplete
+/Users/vadosmik/Desktop/Travigo copy/Travigo/obj/Debug/net7.0/Travigo.dll
+/Users/vadosmik/Desktop/Travigo copy/Travigo/obj/Debug/net7.0/refint/Travigo.dll
+/Users/vadosmik/Desktop/Travigo copy/Travigo/obj/Debug/net7.0/Travigo.pdb
+/Users/vadosmik/Desktop/Travigo copy/Travigo/obj/Debug/net7.0/Travigo.genruntimeconfig.cache
+/Users/vadosmik/Desktop/Travigo copy/Travigo/obj/Debug/net7.0/ref/Travigo.dll

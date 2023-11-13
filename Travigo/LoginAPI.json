@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "username": "user",
+      "password": "123",
+      "listaRezerwacji": {
+        "hotel": [],
+        "restaurant": []
+      }
+    },
+    {
+      "username": "jan",
+      "password": "jan",
+      "listaRezerwacji": {
+        "hotel": [],
+        "restaurant": []
+      }
+    },
+    {
+      "username": "123",
+      "password": "1233",
+      "listaRezerwacji": {
+        "hotel": null,
+        "restaurant": null
+      }
+    }
+  ],
+  "admin": [
+    {
+      "username": "admin",
+      "password": "admin",
+      "listaRezerwacji": null
+    },
+    {
+      "username": "asd",
+      "password": "123",
+      "listaRezerwacji": null
+    }
+  ]
+}

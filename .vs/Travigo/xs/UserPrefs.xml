@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{3F503079-DC3C-44CE-B56E-AC4378BBF0B7}|Default">
+  <MonoDevelop.Ide.ItemProperties.Travigo PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Travigo/HotelAPI.json">
+    <Files>
+      <File FileName="Travigo/Program.cs" Line="34" Column="28" IsPinned="True" />
+      <File FileName="Travigo/LoginApp.cs" Line="102" Column="18" />
+      <File FileName="Travigo/Services.cs" Line="50" Column="28" />
+      <File FileName="Travigo/LoginAPI.json" Line="6" Column="23" NotebookId="1" />
+      <File FileName="Travigo/HotelAPI.json" Line="2" Column="3" NotebookId="1" />
+      <File FileName="Travigo/RestaurantAPI.json" Line="48" Column="2" NotebookId="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Travigo" expanded="True">
+            <Node name="Travigo" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <Debugger.DebugSourceFolders />
+</Properties>
